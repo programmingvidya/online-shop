@@ -25,7 +25,6 @@ import { ProductDescriptionComponent } from "shared/components/product-descripti
     AngularFireModule.initializeApp(environment.firebase),
     RouterModule.forRoot(
       [
-        { path: "product-description", component: ProductDescriptionComponent },
         { path: "", component: ProductsComponent },
         { path: "login", component: LoginComponent }
       ]
